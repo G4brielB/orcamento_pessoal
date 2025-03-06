@@ -1,0 +1,39 @@
+div.menu{
+    display: flex;
+    background-color: #222;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+
+}
+div.perfil img{
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+div.perfil p {
+    margin: 5px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.interface-margin{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.interface{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 30px;
+    color: #000;
+}

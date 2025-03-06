@@ -1,0 +1,28 @@
+div.buttons-menu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+div.button-area{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-top: 20px;
+    border: none;
+    background-color: transparent;
+    color: #aaa;
+    font-size: 1.4em;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+div button:hover{
+    color: #fff;
+}
+
+.active{
+    color: #fff;
+}
