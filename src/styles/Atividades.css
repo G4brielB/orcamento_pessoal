@@ -2,11 +2,13 @@
     display: flex;
     width: 30vw;
     flex-direction: column;
+    
 }
 
 .user-info{
     display: flex;
     align-items: center;
+
 }
 
 .username{

@@ -21,6 +21,9 @@ export default props => {
                 <h1>Atividade</h1>
                 <div className="activity-area">
                     <Activity />
+                    <Activity />
+                    <Activity />
+                    <Activity />
                 </div>
 
                 <aside></aside>

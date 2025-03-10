@@ -34,4 +34,6 @@ div.interface{
     background-color: #fff;
     border-radius: 30px;
     color: #000;
+    overflow: scroll;
+    scrollbar-width: none;
 }
