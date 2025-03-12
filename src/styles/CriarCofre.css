@@ -1,0 +1,90 @@
+.cofre{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.criar-cofre{
+    display: flex;
+    width: 15vw;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: solid 2px #444;
+}
+
+.circulo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.janela-voadora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000060;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.janela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.janela input{
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 1.7em;
+}
+
+.janela input:nth-child(){
+    height: 400px;
+}
+
+.janela label {
+    font-size: 1.4em;
+    color: #fff;
+}
+
+.janela img{
+    width: 80px;
+    object-fit: cover;
+}
+
+.janela button{
+    border: solid 2px #000;
+    border-radius: 20px;
+    padding: 5px 15px;
+    color: #fff;
+    background-color: #444;
+    margin: 15px 10px;
+    transition: 0.5s ease;
+}
+
+.janela button:hover{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.buttons{
+    display: flex;
+    
+}

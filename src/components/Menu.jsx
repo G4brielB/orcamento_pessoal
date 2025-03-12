@@ -2,6 +2,7 @@ import "../styles/Menu.css"
 import { useState } from "react"
 import ButtonsMenu from "./ButtonsMenu"
 import Inicio from "./Inicio"
+import Cofre from "./CriarCofre.jsx"
 import InfoUsers from "./user.js"
 
 
@@ -17,7 +18,7 @@ export default props => {
         </div>
         <div className="interface-margin">
             <div className="interface">
-                <Inicio />
+                <Cofre />
             </div>
         </div>
     </div>
