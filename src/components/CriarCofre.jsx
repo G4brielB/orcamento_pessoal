@@ -1,11 +1,12 @@
 import { useState } from "react"
 import "../styles/CriarCofre.css"
-import ModalCriarCofre from "./ModalCriarCofre"
 
+import InputCofre from "./InputCofre"
+import NomeCofre from "./NomeCofre"
 
 export default props => {
 
-    const [mostrarModal, setMostrarModal] = useState(false)
+   /* const [mostrarModal, setMostrarModal] = useState(false)
     
     const estaMostrando = () => {
         setMostrarModal(true)
@@ -14,20 +15,24 @@ export default props => {
     const naoMostrar = () => {
         setMostrarModal(false)
     }
-    
-
-
-
-    return(
-        <div className="cofre">
-            <h1>Criar Cofre</h1>
+        <h1>Criar Cofre</h1>
             <div className="criar-cofre">
                 <button onClick={estaMostrando} className="circulo">
                     +
                 </button>
                 
             </div>
-            <ModalCriarCofre mostrar={mostrarModal} naoMostrar={naoMostrar} />
+    */
+
+            const [cofreNome, setCofreNome] = useState('')
+            const [cofreDescricao, setCofreDescricao] = useState('')
+            const [cofreValor, setCofreValor] = useState('')
+
+
+    return(
+        <div className="cofre">
+            <InputCofre nome={setCofreNome} descricao={setCofreDescricao} valor={setCofreValor}/>
+            <NomeCofre nome={cofreNome} descricao={cofreDescricao} valor={cofreValor}/>
         </div>
     )
 }
